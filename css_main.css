@@ -46,14 +46,14 @@ h1 {
 
 .text {
 	padding-top: 75px;
-    padding-right: 100px;
-    padding-left: 475px;
+	padding-right: 100px;
+	padding-left: 475px;
 }
 
 .texta {
 	padding-top: 100;
-    padding-right: 75px;
-    padding-left: 450px;
+	padding-right: 75px;
+	padding-left: 450px;
 }
 
 .info {
@@ -73,24 +73,24 @@ h1 {
 }
 .texth {
 	padding-top: 350px;
-    padding-right: 200px;
-    padding-left: 100px;
+	padding-right: 200px;
+	padding-left: 100px;
 }
 .textc {
 	padding-top: 350px;
-    padding-right: 200px;
-    padding-left: 130px;
+	padding-right: 200px;
+	padding-left: 130px;
 }
 
 #welcomeh {
 	transition: margin-left .5s;
-    padding-left: 50px;
+	padding-left: 50px;
 	padding-top: 75px;
 }
 
 #career {
 	transition: margin-left .5s;
-    padding-left: 50px;
+	padding-left: 50px;
 	padding-top: 75px;
 }
 
@@ -147,8 +147,8 @@ h1 {
 }
 
 #main {
-    transition: margin-left .5s;
-    padding-left: 50px;
+	transition: margin-left .5s;
+	padding-left: 50px;
 	padding-top: 75px;
 }
 
