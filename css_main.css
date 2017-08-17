@@ -10,6 +10,12 @@ ul {
   padding-left: 0px;
 }
 
+table, td {
+	padding-right: 300;
+	padding-bottom: 50px;
+	padding-left: 300px;
+}
+
 h1 {
 	positon: fixed; 
 	font-size: 50px;
@@ -31,6 +37,63 @@ h1 {
   font-size: 18px;
   display: none;
 }
+
+.subh {
+	padding-right: 300px;
+	padding-bottom: 50px;
+	padding-left: 400px;
+}
+
+.text {
+	padding-top: 75px;
+    padding-right: 100px;
+    padding-left: 475px;
+}
+
+.texta {
+	padding-top: 100;
+    padding-right: 75px;
+    padding-left: 450px;
+}
+
+.info {
+	padding-top: 250px;
+	padding-right: 500px;
+	
+}
+
+.photoh {
+	padding-right: 50px;
+	padding-top: 0px;
+	padding-bottom:50px;
+	padding-left:75px;
+}
+.photoc {
+	padding-left: 350px;
+}
+.texth {
+	padding-top: 350px;
+    padding-right: 200px;
+    padding-left: 100px;
+}
+.textc {
+	padding-top: 350px;
+    padding-right: 200px;
+    padding-left: 130px;
+}
+
+#welcomeh {
+	transition: margin-left .5s;
+    padding-left: 50px;
+	padding-top: 75px;
+}
+
+#career {
+	transition: margin-left .5s;
+    padding-left: 50px;
+	padding-top: 75px;
+}
+
 
 .navbar {
   overflow: hidden;
@@ -74,6 +137,13 @@ h1 {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+}
+
+#contact {
+	transition: margin-left .5s;
+	padding-left: 450px;
+	padding-top: -100px;
+	padding-right: 75px;
 }
 
 #main {
