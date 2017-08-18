@@ -1,13 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display) ;
 
 body {
-    font-family: "Playfair Display", serif;
+	font-family: "Playfair Display", serif;
 	margin:0;
+	background-color:white
 }
 
 ul {
-  list-style-type: none;
-  padding-left: 0px;
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+table, td {
+	padding-right: 300;
+	padding-bottom: 50px;
+	padding-left: 300px;
 }
 
 h1 {
@@ -21,6 +28,7 @@ h1 {
   padding-left: 0px;
   font-size: 25px;
 }
+
 .head:hover .sub {
 	display: block;
 }
@@ -31,6 +39,58 @@ h1 {
   font-size: 18px;
   display: none;
 }
+
+.subh {
+	padding-right: 300px;
+	padding-bottom: 50px;
+	padding-left: 400px;
+}
+
+.text {
+	padding-top: 50px;
+	padding-right: 100px;
+	padding-left: 475px;
+}
+
+
+.info {
+	padding-top: 25px;
+	padding-right: 500px;
+	
+}
+
+.photoh {
+	padding-right: 50px;
+	padding-top: 0px;
+	padding-bottom: 50px;
+	padding-left: 25px;
+}
+.photoc {
+	padding-left: 350px;
+}
+.texth {
+	padding-top: 350px;
+	padding-right: 200px;
+	padding-left: 100px;
+}
+.textc {
+	padding-top: 350px;
+	padding-right: 200px;
+	padding-left: 130px;
+}
+
+#welcomeh {
+	transition: margin-left .5s;
+	padding-left: 50px;
+	padding-top: 25px;
+}
+
+#career {
+	transition: margin-left .5s;
+	padding-left: 50px;
+	padding-top: 75px;
+}
+
 
 .navbar {
   overflow: hidden;
@@ -76,9 +136,16 @@ h1 {
     margin-left: 50px;
 }
 
+#contact {
+	transition: margin-left .5s;
+	padding-left: 450px;
+	padding-top: -100px;
+	padding-right: 75px;
+}
+
 #main {
-    transition: margin-left .5s;
-    padding-left: 50px;
+	transition: margin-left .5s;
+	padding-left: 50px;
 	padding-top: 75px;
 }
 
