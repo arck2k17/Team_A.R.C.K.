@@ -23,6 +23,39 @@ h1 {
 	color: #68336B;
 }
 
+h2 {
+	positon: fixed; 
+	font-size: 35px;
+	color: #68336B;
+}
+
+.link {
+	font-size: 18px;
+}
+
+.bullet {
+	padding-left: 75px;
+	list-style-type: disc;
+}
+
+.bullet1 {
+	padding-left: 75px;
+	list-style-type: circle;
+}
+
+.img {
+	width: 50%;
+}
+
+.text1 {
+	padding-right: 100px;
+	padding-left: 50px;
+}
+
+.text2 {
+	padding-right: 100px;
+}
+
 .head {
   list-style-type: none;
   padding-left: 0px;
