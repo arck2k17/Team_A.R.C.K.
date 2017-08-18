@@ -209,6 +209,14 @@ h2 {
 	padding-left: 50px;
 	padding-top: 50px;
 }
+#postbox {
+	transition: margin-left .5s;
+	padding-left: 900px;
+}
+#subbutton {
+	padding-left: 1200px;
+	transition: margin-left .5s;
+}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
