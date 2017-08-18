@@ -27,6 +27,26 @@ h2 {
 	font-size: 18px;
 }
 
+#health {
+	transition: margin-left .5s;
+    	padding-left: 15px;
+	padding-top: 50px;
+}
+.subsp {
+	padding-top: 0px;
+    padding-right: 200px;
+    padding-left: 550px;
+}
+.photosp {
+	padding-left: 250px;
+	padding-top: 25px;
+}
+.textsp {
+	padding-top: 325px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
 .bullet {
 	padding-left: 75px;
 	list-style-type: disc;
