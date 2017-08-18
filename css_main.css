@@ -63,7 +63,7 @@ h1 {
 	padding-right: 50px;
 	padding-top: 0px;
 	padding-bottom: 50px;
-	padding-left: 75px;
+	padding-left: 25px;
 }
 .photoc {
 	padding-left: 350px;
@@ -82,7 +82,7 @@ h1 {
 #welcomeh {
 	transition: margin-left .5s;
 	padding-left: 50px;
-	padding-top: 75px;
+	padding-top: 25px;
 }
 
 #career {
