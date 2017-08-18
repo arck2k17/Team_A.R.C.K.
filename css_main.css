@@ -11,12 +11,6 @@ ul {
 	padding-left: 0px;
 }
 
-table, td {
-	padding-right: 300;
-	padding-bottom: 50px;
-	padding-left: 300px;
-}
-
 h1 {
 	positon: fixed; 
 	font-size: 50px;
@@ -179,7 +173,7 @@ h2 {
 #main {
 	transition: margin-left .5s;
 	padding-left: 50px;
-	padding-top: 75px;
+	padding-top: 50px;
 }
 
 @media screen and (max-height: 450px) {
