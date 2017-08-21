@@ -1,17 +1,157 @@
 <!DOCTYPE html>
 <html>
-<head>
+	<head>
 		<link rel="stylesheet" type="text/css" href="css_main.css">
 		<script src="js_main.js"></script>
 		<title>A.R.C.K</title>
-</head>
+	</head>
 	<body>
-		<h1>Career</h1>
-		 <a href="pay_gap.html">The Pay Gap</a>
-		 <a href="pay_raise.html">Pay Raise</a>
-		 <a href="interviews.html">Interviews</a>
-		 <a href="reentering_workforce">Reentering the Workforce</a>
-		 <a href="only_woman">The Only Woman</a>
+	<div id="mySidenav" class="sidenav">
+		<ul>
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<li class="head"><a href="html_main.html">Home</a></li> 
+		<li class="head">
+		<a href="harassment.html">Harassment</a> 
+			<ul>
+			<li class="sub"><a href="street_harassment.html">Street Harassment</a></li>
+			<li class="sub"><a href="work_harassment.html">Work Harassment</a></li>
+			<li class="sub"><a href="sexual_assault.html">Sexual Assault</a></li>
+			<li class="sub"><a href="domestic_abuse.html">Domestic Abuse</a></li>
+			</ul>
+		</li>
+		<li class="head">
+		<a href="career.html">Career</a> 
+			<ul>
+			<li class="sub"><a href="pay_gap.html">Gender Pay Gap</a></li>
+			<li class="sub"><a href="pay_raise.html">Pay Raise</a></li>
+			<li class="sub"><a href="interviews.html">Interview Rights</a></li>
+			<li class="sub"><a href="reentering_workforce">Reentering the Workforce</a></li>
+			<li class="sub"><a href="only_woman">Male-Dominated Office</a></li>
+			</ul>
+		</li>
+		<li class="head">
+		<a href="health.html">Health</a> 
+			<ul>
+			<li class="sub"><a href="menstruation.html">Menstruation Frustration</a></li>
+			<li class="sub"><a href="birth_control.html">Birth Control</a></li>
+			</ul>
+		</li>
+		<li class="head">
+		<a href="societal_pressures.html">Societal Pressures</a> 
+			<ul>
+			<li class="sub"><a href="body_shaming.html">Body Shaming</a></li>
+			<li class="sub"><a href="double_standards.html">Double Standards</a></li>
+			</ul>
+		</li>
+		<li class="head"><a href="spotlight_women.html">Spotlight Women</a></li>  
+		<li class="head"><a href="about_us.html">About Us</a></li> 
+	</ul>
+	</div>
 
-     </body>
+	<div class="navbar">
+		<span style="font-size:30px;cursor:pointer;padding-left: 50px;color:#68336B" onclick="openNav()">&#9776 </span>
+		<a href="html_main.html"><img src="http://i.imgur.com/GId4Ztl.png" style="width:169px;height:58px;vertical-align:middle;padding-left: 37.5%;"></a>
+	</div>
+	
+			<div id="main">
+			<center><h1>Career</h1></center>
+			<center>
+				<a href="pay_gap.html">Gender Pay Gap</a> |
+				<a href="pay_raise.html">Pay Raise</a> |
+				<a href="interviews.html">Interview Rights</a> |
+				<a href="reentering_workforce.html">Reentering the Workforce</a> 
+				<a href="only_woman.html">The Only Woman</a> 
+			</center>
+	
+			<center><img src=http://i.imgur.com/OWvO54S.jpg
+				style="width: 700px; height: 375px;padding-top: 50px;"></center>
+	
+			<center><h2><p>Need career advice? Read some of our resources to learn how you can improve your work experience?</p></h2></center>
+	
+			<br> <br> 
+			<input type="file" id="myfile" name="text/*" >
+			<button onclick="abortRead();"> Stop Loading Posts </button>
+			<button type="button"  id="print" onclick="handleText()"> Show Posts </button>
+			<p id="0"> </p>
+			<p id="1"> </p>
+			<p id="2"> </p>
+			<p id="3"> </p>
+			<p id="4"> </p>
+			<p id="5"> </p>
+			<p id="6"> </p>
+			<p id="7"> </p>
+			<p id="8"> </p>
+			<p id="9"> </p>
+			<textarea id="DisplayText" rows="10" cols="100"> In order to load past posts, chose the Career file and press "Show Posts." </textarea>
+			<br> <br>
+			<textarea id="new_post" rows="5" cols="50"> New Post... </textarea>
+			<br> 
+			<button onclick="show()"> Submit </button>
+			<br> <br> <br>
+			<script>
+				var num = 10;
+				function show() {
+					num = num - 1;
+					new_post = document.getElementById("new_post").value;
+					if (num === 9) {
+						document.getElementById("9").textContent = new_post;
+						}
+					if (num === 8) {
+						document.getElementById("8").textContent = new_post;
+						}
+					if (num === 7) {
+						document.getElementById("7").textContent = new_post;
+						}
+					if (num === 6) {
+						document.getElementById("6").textContent = new_post;
+						}
+					if (num === 5) {
+						document.getElementById("5").textContent = new_post;
+						}
+					if (num === 4) {
+						document.getElementById("4").textContent = new_post;
+						}
+					if (num === 3) {
+						document.getElementById("3").textContent = new_post;
+						}
+					if (num === 2) {
+						document.getElementById("2").textContent = new_post;
+						}
+					if (num === 1) {
+						document.getElementById("1").textContent = new_post;
+						}
+					if (num === 0) {
+						document.getElementById("0").textContent = new_post;
+						}
+					}
+			</script>	
+			<script>
+				var button = document.querySelector("#myfile + button");
+				var input = document.getElementById("myfile");
+				var display = document.getElementById("DisplayText");
+				var text = null;
+				input.addEventListener("change", addDoc);
+				button.addEventListener("click", handleText)
+				function addDoc(event) {
+					var file = this.files[0]
+					var reader = new FileReader();      
+					reader.onload = function(e) {
+						text = reader.result;
+						button.removeAttribute("disabled");
+						}
+					reader.onerror = function(err) {
+						console.log(err, err.loaded
+						, err.loaded === 0
+						, file);
+						button.removeAttribute("disabled");
+						}
+					reader.readAsText(event.target.files[0]);
+					}
+				function handleText() {
+					display.textContent = text;
+					button.setAttribute("disabled", "disabled");
+					text = null;
+					}
+			</script>
+		</div>
 </html>
