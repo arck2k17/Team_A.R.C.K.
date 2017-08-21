@@ -119,6 +119,7 @@ h2 {
 #main {
 	transition: margin-left .5s;
 	padding-left: 50px;
+	padding-right:50px;
 	padding-top: 50px;
 }
 
