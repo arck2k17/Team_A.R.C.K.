@@ -27,40 +27,6 @@ h2 {
 	font-size: 18px;
 }
 
-#health {
-	transition: margin-left .5s;
-    	padding-left: 15px;
-	padding-top: 50px;
-}
-.subhe {
-	padding-top: 0px;
-    	padding-right: 200px;
-    	padding-left: 550px;
-}
-.texthe {
-	padding-top: 375px;
-    	padding-right: 200px;
-    	padding-left: 200px;
-}
-.photohe {
-	padding-left: 250px;
-	padding-top: 25px;
-}
-.subsp {
-	padding-top: 0px;
-    padding-right: 200px;
-    padding-left: 550px;
-}
-.photosp {
-	padding-left: 250px;
-	padding-top: 25px;
-}
-.textsp {
-	padding-top: 325px;
-    padding-right: 200px;
-    padding-left: 200px;
-}
-
 .bullet {
 	padding-left: 75px;
 	list-style-type: disc;
@@ -101,57 +67,10 @@ h2 {
   display: none;
 }
 
-.subh {
-	padding-right: 300px;
-	padding-bottom: 50px;
-	padding-left: 400px;
-}
-
 .text {
-	padding-top: 50px;
 	padding-right: 100px;
 	padding-left: 475px;
 }
-
-
-.info {
-	padding-top: 0px;
-	padding-right: 500px;
-	
-}
-
-.photoh {
-	padding-right: 50px;
-	padding-top: 0px;
-	padding-bottom: 50px;
-	padding-left: 25px;
-}
-.photoc {
-	padding-left: 350px;
-}
-.texth {
-	padding-top: 350px;
-	padding-right: 200px;
-	padding-left: 100px;
-}
-.textc {
-	padding-top: 350px;
-	padding-right: 200px;
-	padding-left: 130px;
-}
-
-#welcomeh {
-	transition: margin-left .5s;
-	padding-left: 50px;
-	padding-top: 25px;
-}
-
-#career {
-	transition: margin-left .5s;
-	padding-left: 50px;
-	padding-top: 75px;
-}
-
 
 .navbar {
   overflow: hidden;
@@ -195,13 +114,6 @@ h2 {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-}
-
-#contact {
-	transition: margin-left .5s;
-	padding-left: 450px;
-	padding-top: -100px;
-	padding-right: 75px;
 }
 
 #main {
