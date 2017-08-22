@@ -5,6 +5,14 @@ body {
 	margin:0;
 	background-color:white
 }
+td {
+	padding: 42px;
+	text-align: center;
+}
+tr, td {
+	border: 1px #e6ccff;
+	margin: 0;
+}
 
 ul {
 	list-style-type: none;
@@ -115,6 +123,15 @@ h2 {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+}
+.border{
+    padding-top: 10px; 
+    border: solid #e6ccff;
+    margin: 0;
+}
+#Ademusoyo{
+	padding-left: 35px;
+	padding-top: 50px;
 }
 
 #main {
