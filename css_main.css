@@ -123,6 +123,25 @@ h2 {
 	padding-right:50px;
 	padding-top: 50px;
 }
+#forum {
+	font-family: "Playfair Display", serif;
+	font-size: 20px;
+	color: #68336B;
+	}
+#new_post {
+	font-family: "Playfair Display", serif;
+	font-size: 20px;
+	color: #68336B;
+	}
+#SubmitButton {
+	color: #69336B;
+	border-color: #603369B;
+	background-color: #e6ccff;
+	height: 40px;
+	width: 80px;
+	font-family: "Playfair Display", serif;
+	font-size: 15px;
+	}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
