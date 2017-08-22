@@ -66,93 +66,61 @@
 	<center><img src=http://www.girlsfightback.com/wp-content/uploads/2013/09/slider-NO.png
 		style="width: 1200px; height: 400px;"></center>
 	<center><h2><p>If you've experienced any kind of harassment, please use the resources under: Street Harassment, Sexual Assault, Work Harassment, and Domestic Abuse.</p></h2></center>
-		
-		<br> <br> 
-			<input type="file" id="myfile" name="text/*" >
-			<button onclick="abortRead();"> Stop Loading Posts </button>
-			<button type="button"  id="print" onclick="handleText()"> Show Posts </button>
-			<p id="0"> </p>
-			<p id="1"> </p>
-			<p id="2"> </p>
-			<p id="3"> </p>
-			<p id="4"> </p>
-			<p id="5"> </p>
-			<p id="6"> </p>
-			<p id="7"> </p>
-			<p id="8"> </p>
-			<p id="9"> </p>
-			<textarea id="DisplayText" rows="10" cols="100"> In order to load past posts, chose the Career file and press "Show Posts." </textarea>
-			<br> <br>
-			<textarea id="new_post" rows="5" cols="50"> New Post... </textarea>
-			<br> 
-			<button onclick="show()"> Submit </button>
-			<br> <br> <br>
-			<script>
-				var num = 10;
-				function show() {
-					num = num - 1;
-					new_post = document.getElementById("new_post").value;
-					if (num === 9) {
-						document.getElementById("9").textContent = new_post;
-						}
-					if (num === 8) {
-						document.getElementById("8").textContent = new_post;
-						}
-					if (num === 7) {
-						document.getElementById("7").textContent = new_post;
-						}
-					if (num === 6) {
-						document.getElementById("6").textContent = new_post;
-						}
-					if (num === 5) {
-						document.getElementById("5").textContent = new_post;
-						}
-					if (num === 4) {
-						document.getElementById("4").textContent = new_post;
-						}
-					if (num === 3) {
-						document.getElementById("3").textContent = new_post;
-						}
-					if (num === 2) {
-						document.getElementById("2").textContent = new_post;
-						}
-					if (num === 1) {
-						document.getElementById("1").textContent = new_post;
-						}
-					if (num === 0) {
-						document.getElementById("0").textContent = new_post;
-						}
-					}
-			</script>	
-			<script>
-				var button = document.querySelector("#myfile + button");
-				var input = document.getElementById("myfile");
-				var display = document.getElementById("DisplayText");
-				var text = null;
-				input.addEventListener("change", addDoc);
-				button.addEventListener("click", handleText)
-				function addDoc(event) {
-					var file = this.files[0]
-					var reader = new FileReader();      
-					reader.onload = function(e) {
-						text = reader.result;
-						button.removeAttribute("disabled");
-						}
-					reader.onerror = function(err) {
-						console.log(err, err.loaded
-						, err.loaded === 0
-						, file);
-						button.removeAttribute("disabled");
-						}
-					reader.readAsText(event.target.files[0]);
-					}
-				function handleText() {
-					display.textContent = text;
-					button.setAttribute("disabled", "disabled");
-					text = null;
-					}
-			</script>
-		</div>
+	<br> <br> 
+	<div id="forum">
+	<h2> Harrassment Forum </h2>
+	<textarea id="new_post" rows="6" cols="80"> New Post... </textarea> <br> <br>
+	<button id="SubmitButton" onclick="show()"> Submit </button> <br>
+	<p id="0"> </p>
+	<p id="1"> </p>
+	<p id="2"> </p>
+	<p id="3"> </p>
+	<p id="4"> </p>
+	<p id="5"> </p>
+	<p id="6"> </p>
+	<p id="7"> </p>
+	<p id="8"> </p>
+	<p id="9"> </p>
+	<br> <br> <br>
+	</div>
+	<script>
+		var num = 10;
+		function show() {
+			num = num - 1;
+			new_post = document.getElementById("new_post").value;
+			if (num === 9) {
+				document.getElementById("9").textContent = new_post;
+				}
+			if (num === 8) {
+				document.getElementById("8").textContent = new_post;
+				}
+			if (num === 7) {
+				document.getElementById("7").textContent = new_post;
+				}
+			if (num === 6) {
+				document.getElementById("6").textContent = new_post;
+				}
+			if (num === 5) {
+				document.getElementById("5").textContent = new_post;
+				}
+			if (num === 4) {
+				document.getElementById("4").textContent = new_post;
+				}
+			if (num === 3) {
+				document.getElementById("3").textContent = new_post;
+				}
+			if (num === 2) {
+				document.getElementById("2").textContent = new_post;
+				}
+			if (num === 1) {
+				document.getElementById("1").textContent = new_post;
+				}
+			if (num === 0) {
+				document.getElementById("0").textContent = new_post;
+				}
+			}
+	</script>	
+			
 
 	</div>
 	</body>
